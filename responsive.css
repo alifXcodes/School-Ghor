@@ -1,0 +1,112 @@
+
+
+@media screen and (max-width:500px) {
+                                             /* home page  */
+
+    /* top bar  */
+    .email{
+    display: none;
+}
+.border{
+    display: none;
+}
+.phone{
+    display: none;
+}
+
+.login_btn{
+    margin: 15px 220px;
+}
+
+/* nav bar  */
+#main_manu{
+    max-width: 485px;
+}
+#main_manu ul li{
+    margin: 0 3px;
+}
+
+/* body section  */
+.body_section_1{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.img_div{
+    border: 1px solid #192a56;
+    margin-bottom: 20px;
+}
+/* body_section_2 */
+
+.background_div{
+    height: 800px; 
+}
+.internal_content{
+   display: flex;
+   flex-direction: column; 
+   margin-top: 15%;
+}
+.online_courses{
+    text-align: center;
+}
+.mentors{
+text-align: center;
+}
+.book{
+    text-align: center;
+}
+
+/* footer  */
+.address{
+    display: inline-block;
+}
+.company{
+    height: 300px;
+    
+}
+.copyRight{
+  margin-top: 0;  
+}
+
+                                                   /* about us  */
+.about_heading{
+    padding: 15%;
+    margin: 10%;
+    margin-left: 120px;
+    font-size: 25px;
+}
+.about_text_div{
+    height: 300px;
+}
+
+                                                  /* login page  */
+
+.login_background{
+    display: flex;
+    flex-direction: column;
+}
+.company_image{
+    margin-top: 10%;
+}
+.company_image p{
+    margin: auto;
+    margin-top: -14%;
+}
+
+.border_div{
+ display: none;
+}
+.main_form{
+    margin: auto;
+    margin-top: 10%;
+}
+fieldset{
+    margin: auto;
+}
+legend{
+    margin-left: 30px;    
+}
+.text{
+margin-left: 25%;
+}
+}
